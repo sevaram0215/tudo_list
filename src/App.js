@@ -132,8 +132,9 @@ function TodoList() {
               <span
                 style={{
                   fontSize: "16px",
-                  color: "#333",
+                
                   textDecoration: todo.isChecked ? "line-through" : "none",
+                  color: todo.isChecked ? "blue" : "#333"
                 }}
               >
                 <input

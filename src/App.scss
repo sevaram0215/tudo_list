@@ -4,14 +4,22 @@
 //  display: grid;
 //  grid-template-columns: repeat(2, 1fr);
   // opacity: ;
+
   box-shadow: rgba(175, 200, 216, 0.4) 0px 0px 0px 2px, rgba(236, 230, 230, 0.65) 0px 4px 6px -1px, rgba(255, 255, 255, 0.08) 0px 1px 0px inset;
-  & input{
+  @media screen and (min-width:200px) and (max-width:800px) {
+    display: block !important;
+    width: 100% !important;
+    margin: 0 !important;
+    padding: 0 !important;
+  }
+  &input{
     padding: 10px ;
-    width: 100% ;
+    width: 100%;
     margin: auto;
-    border: 1px solid #ccc ;
-    border-radius: 5px ;
-    font-size: '16px';
+ border: 1px solid #ccc ;
+   border-radius: 5px;
+   
+    font-size: 16px;
     margin-right: 10px;
 
     

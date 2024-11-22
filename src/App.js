@@ -80,7 +80,7 @@ function TodoList() {
             
               padding: "10px 15px",
               border: "none",
-              backgroundColor: "#007BFF",
+              backgroundColor: "#1095ec",
               color: "#fff",
               borderRadius: "5px",
               cursor: "pointer",
@@ -150,7 +150,7 @@ function TodoList() {
                 style={{
                   padding: "5px 10px",
                   border: "none",
-                  backgroundColor: "#DC3545",
+                  backgroundColor: "#f33b09",
             
               
                   cursor: "pointer",
